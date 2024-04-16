@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <object data="./audioVideo.html" type="">Alternative text</object>
+    <br>
+    <object data="./thumbnail.png" type="image/png" height="500px" width="400px"></object>
+    <br/>
+
+    <!-- embedded element -->
+    <embed src="./audioVideo.html" type="">
+    <br>
+    <embed src="./thumbnail.png" type="image/png">
+
+
+
+    <!-- pdf download using the object and embedded elements -->
+    <object data="./Lecture1.pdf" type="application/pdf"></object>
+    <br>
+    <embed src="./Lecture1.pdf" type="application/pdf">
+
+    <!-- undownloadable file -->
+    <br>
+    <object data="./Lecture1.pdf#toolbar=0" type=""></object>
+    <br>
+    <embed src="./Lecture1.pdf#toolbar=0" type="application/pdf">
+    
+    <br>
+    <!-- using direct link -->
+    <a href="./Lecture1.pdf">Pdf</a>
+
+    <!-- using iframe -->
+    <iframe src="./Lecture1.pdf" frameborder="0"
+    height="700px" width="600px">
+    </iframe>
+
+    <!-- undownladable using iframe -->
+    <iframe src="./Lecture1.pdf#toolbar=0" frameborder="0"
+    height="700px" width="600px">
+    </iframe>
+</body>
+</html>
