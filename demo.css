@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    overflow-x: hidden; /* Hide horizontal overflow */
+  }
+  
+  .project-cards {
+    white-space: nowrap; /* Prevent project cards from wrapping */
+    animation: scrollAnimation 20s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  .project-card {
+    display: inline-block;
+    width: 200px; /* Adjust card width as needed */
+    height: 150px; /* Adjust card height as needed */
+    background-color: #f0f0f0;
+    margin-right: 20px; /* Adjust margin between cards as needed */
+  }
+  
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-200px * 3)); /* Adjust based on the number of cards */
+    }
+  }
+  
