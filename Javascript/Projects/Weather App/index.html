@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="weather-buttons">
+            <div class="buttons">
+                <button class="btn current-weather-btn" id="currentWeatherBtn">Current Weather</button>
+                <button class="btn search-weather-btn" id="searchWeatherBtn">Search Weather</button>
+            </div>
+            <div class="searchDiv">
+                <input type="text" class="search-input" id="searchInput" placeholder="Enter City Name">
+                <button class="btn search-btn" id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div class="result" id="weatherResult">
+            <div class="mainContent">
+                <div id="cityNameContainer"><span class="cityName" id="cityName"></span></div>
+                <div id="weatherTypeContainer"><span class="weatherType" id="weatherType"></span></div>
+                <div id="weatherTypeIconContainer"><span class="weatherTypeIcon" id="weatherTypeIcon"></span></div>
+                <div id="temperatureContainer"><span class="temperature" id="temperature"></span></div>
+            </div>
+            <hr>
+            <div class="otherParams">
+                <div id="windSpeedContainer">
+                    <div><img src="./assets/wind.png" alt="Wind Speed Icon" height="100px" width="100px" ></div>
+                    <p>Wind Speed</p>
+                    <div><span class="windSpeed" id="windSpeed"></span></div>
+                </div>
+                <div id="humidityContainer">
+                    <div><img src="./assets/humidity.png" alt="Humidity Icon" height="100px" width="100px"></div>
+                    <p>Humidity</p>
+                    <div><span class="humidity" id="humidity"></span></div>
+                </div>
+                <div id="cloudsContainer">
+                    <div><img src="./assets/cloud.png" alt="Clouds Icon" height="100px" width="100px"></div>
+                    <p>Clouds</p>
+                    <div><span class="clouds" id="clouds"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Developed by <a href="https://www.instagram.com/its__g.t/" id="developerLink">Guru Patel</a></p>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

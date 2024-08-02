@@ -1,0 +1,86 @@
+/* form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.new-product_title,
+.new-product_date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.new-product_title label,
+.new-product_date label {
+    font-weight: bold;
+}
+
+.new-product_title input,
+.new-product_date input {
+    flex-grow: 1;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+.new-product_title,
+.new-product_date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.new-product_title label,
+.new-product_date label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.new-product_title input,
+.new-product_date input {
+    flex-grow: 1;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+button:hover {
+    background-color: #45a049;
+}

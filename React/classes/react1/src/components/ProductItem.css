@@ -1,0 +1,17 @@
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+    padding: 1em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background-color: white;
+}
+
+.product-item__description {
+    font-size: 0.9em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,30 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.products .product-item {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.products .product-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.products .product-item p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.products .product-item .date {
+    color: #888;
+}
